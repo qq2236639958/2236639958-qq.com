@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+viptv 2021.05 
+===============
 
-You can use the [editor on GitHub](https://github.com/entv/entv.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> 本站为VIPTV开发版的WEB体验,对标聚合海量电视， 直播，影视，短片，音乐，小说，壁纸等资源。底层架构做了进一步的优化升级，不忘初心、匠心打造、值得信赖！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 技术栈
 
-### Markdown
+- [Vue Cli（Vue 脚手架工具）](https://cli.vuejs.org/zh/)
+- [Vue（核心框架）](https://cn.vuejs.org/)
+- [Vue Router（页面路由）](https://router.vuejs.org/zh/)
+- [Vuex（状态管理）](https://vuex.vuejs.org/zh/)
+- ES 6 / 7 （JavaScript 语言的下一代标准）
+- Less（CSS 预处理器）
+- Axios（网络请求）
+- FastClick（解决移动端 300ms 点击延迟）
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 主要内容
 
-```markdown
-Syntax highlighted code block
+ * 咪咕直播 
+ * 北邮直播
+ * 央视频源
+ * 百度好看
+ * 咪咕视频
+ * 凤凰视频
+ * 酷狗音乐
+ * 酷我铃音
+ * 自定义源
 
-# Header 1
-## Header 2
-### Header 3
+## VipTV的运行环境 : NodeJs
 
-- Bulleted
-- List
+## NPM 安装包库
 
-1. Numbered
-2. List
+~~~
+npm i
+~~~
 
-**Bold** and _Italic_ and `Code` text
+## NPM 启动服务
 
-[Link](url) and ![Image](src)
-```
+~~~
+npm run serve
+~~~
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 浏览器中访问
 
-### Jekyll Themes
+~~~
+http://127.0.0.1
+~~~
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/entv/entv.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## NPM 打包上传
 
-### Support or Contact
+~~~
+npm run build
+~~~
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 开发版 - 版本说明
++ 1 如果你默认开启https，但是本站聚合的资源也有http的，所以在体验过程当中有影视资源播放不了，纯属正常.
++ 2 由于本站正在发中，代码暂不开源，若有需要，请联系作者。
+
